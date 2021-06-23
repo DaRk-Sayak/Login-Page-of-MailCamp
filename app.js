@@ -19,7 +19,6 @@ app.post("/",(req,res)=>{
    const lName=String(req.body.lName);
    const email=String(req.body.email);
    const phone=Number(req.body.number);
-   console.log(address);
    const url="https://us6.api.mailchimp.com/3.0/lists/7557dab1c4";
    const options={
        method:"POST",
